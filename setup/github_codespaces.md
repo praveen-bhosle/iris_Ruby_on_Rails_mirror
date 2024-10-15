@@ -2,10 +2,12 @@
 A [codespace](https://docs.github.com/en/codespaces/overview) is a development environment that's hosted in the cloud.
 
 # Creating your codespace
-* [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) the [Web Bootcamp 2024](https://github.com/iris-nitk-pvt/web-bootcamp-2024) repo (if you haven't already)
+* Open the repository which would have got created when you accepted the invite and joined the classroom.
+  The link for the repo will be like: https://github.com/iris-nitk-pvt/ror-bootcamp-2024-your-github-username
+(`your-github-username` is a placeholder here)
 * Click on **Code** and from the codespaces dropdown click on the ➕ icon to create a new codespace.
 
-![image](https://github.com/user-attachments/assets/377ba98f-c5d0-450c-a42c-8d8a6a5602b3)
+![image](https://github.com/user-attachments/assets/9c3024ee-0631-408f-9c2e-32d808cd3549)
 
 
 * You can install the [GitHub codespaces extenction](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
@@ -15,7 +17,7 @@ for VScode, if don't like to work in browser.
 
 The Github codespaces will have `rvm`, `node` and `yarn` preinstalled so you can get started off working with rails.
 
-![image](https://github.com/user-attachments/assets/b4899168-ad22-4583-abee-3cd879034acf)
+![image](https://github.com/user-attachments/assets/7dee4b2c-429e-4266-8e36-0f396a58597d)
 
 --------------------------------------------------
 
