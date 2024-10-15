@@ -31,9 +31,6 @@ Create a Ruby application that fetches the latest news from the [NewsAPI](https:
 4. Display the data in an HTML file and use CSS to make it visually pleasing.
 
 
-* Once you have completed the assignment, submit a Pull Request with your work to the branch `week1_assignment` **(not `main`)**.
-* Status of your grading will be indicated using GitHub tags on your _PR_.
-
 ---
 
 ### Submission Instructions
