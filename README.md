@@ -13,3 +13,5 @@ if you face any issues while installing ruby [locally](/setup/local_setup.md).
 
 ## [Week 1 - The Basics](/week_1)
 In the first week, we will introduce you to basic concepts related to Web Development, Ruby and Git.
+
+**Deadline**: 21 / 10 / 2024, 11:59pm
