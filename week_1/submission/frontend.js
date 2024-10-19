@@ -1,59 +1,52 @@
 NUMBER = 20
 
 
-function fetchFromDB()
-{
-    // Fetch the local JSON file... apparently cannot do without from browser
+async function fetchFromDB() {
+    spinner();
+    // Fetch the local JSON file... apparently cannot do without fetch from browser
     fetch('response.json')
-    .then(response => response.json())
-    .then(data => articlesToDOM(data))
-    .catch(error => {
-        console.error('Error loading JSON:', error);
-    });
-
+        .then(response => response.json())
+        .then(data => articlesToDOM(data))
+        .catch(error => {
+            console.error('Error loading JSON:', error);
+        });
+    spinner();
 }
 
-async function fetchFromJS(query)
-{
+async function fetchFromJS(query) {
     url = ''
 
-    if(query)
-    {
+    if (query) {
         console.log("Custom search")
         query = String(query)
         url = `https://newsapi.org/v2/everything?language=en&pageSize=${NUMBER}&q=${query}&apiKey=1b2fc2d4815b4d8d806df537115851e7`
     }
-    else
-    {
+    else {
         console.log("Fetch top")
         url = `https://newsapi.org/v2/top-headlines?language=en&pageSize=${NUMBER}&apiKey=1b2fc2d4815b4d8d806df537115851e7`;
     }
 
     console.log("Waiting for search!")
-    try 
-    {
+    try {
         const response = await fetch(url);
-        if (!response.ok) 
-        {
-          throw new Error(`Response status: ${response.status}`);
+        if (!response.ok) {
+            throw new Error(`Response status: ${response.status}`);
         }
-    
+
         const json = await response.json();
         console.log("Got results!")
         articlesToDOM(json)
 
-    } 
-    catch (e) 
-    {
+    }
+    catch (e) {
         console.error(e);
     }
- 
+
 }
 
 
 
-function articlesToDOM(json)
-{
+function articlesToDOM(json) {
     const container = document.querySelector('.container');
     const articles = json.articles;
     let articleElements = []
@@ -61,8 +54,7 @@ function articlesToDOM(json)
     count = 0
     articles.forEach(article => {
 
-        if(article.title === '[Removed]' || count >= 10)
-        {
+        if (article.title === '[Removed]' || count >= 10) {
             return
         }
 
@@ -83,8 +75,7 @@ function articlesToDOM(json)
 
         // Image
         let image = undefined
-        if(article.urlToImage)
-        {
+        if (article.urlToImage) {
             image = document.createElement('img');
             image.className = 'article-image';
             image.src = article.urlToImage;
@@ -114,35 +105,46 @@ function articlesToDOM(json)
         articleElements.push(articleDiv)
         count++;
     });
-    
+
     container.replaceChildren(...articleElements);
 
 }
 
-async function keyToSearch(event)
-{
-    if (event.key === "Enter") 
-    {
-          document.querySelector(".search-button").click();
+async function keyToSearch(event) {
+    if (event.key === "Enter") {
+        document.querySelector(".search-button").click();
     }
 }
 
+function spinner() {
+    const spinner = document.getElementById('spinner')
+    console.log(spinner.classList)
+    if (spinner.classList.contains('vanish')) {
+        console.log("TRUE")
+        spinner.classList.remove('vanish')
+    }
+    else
+    {
+        console.log("FALSE")
+        spinner.classList.add('vanish')
+    }
+}
 
-async function handleSearch()
-{
-
+async function handleSearch() {
+    spinner();
     const searchBox = document.querySelector('.search-box');
     const query = searchBox.value;
     searchBox.value = ''
     const title = document.querySelector('.title-box');
-    title.innerHTML = `You searched for: ${query}`
+    title.innerHTML = query === '' ? 'Top Headlines of the Day' : `You searched for: ${query}`
     await fetchFromJS(query)
     console.log("Everything done!")
+    spinner();
 }
 
 document.querySelector('.search-button').addEventListener('click', handleSearch);
 document.addEventListener("keypress", keyToSearch)
-    
+
 
 
 
