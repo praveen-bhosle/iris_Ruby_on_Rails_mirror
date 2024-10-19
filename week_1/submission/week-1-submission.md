@@ -1,4 +1,4 @@
-# WEEK 1 - Mimick Full Stack
+# WEEK 1 - Mimick Full Stack (Vishal Kamath)
 
 This week's assignment was all about applying what I've learnt about Ruby for creating a simple, decoupled front-end back-end news article website.
 
