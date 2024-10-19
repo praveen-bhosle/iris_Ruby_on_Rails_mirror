@@ -4,42 +4,29 @@
   "articles": [
     {
       "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
+        "id": null,
+        "name": "Slate Magazine"
       },
-      "author": "Judith Graham",
-      "title": "Guest column | Alone with dementia: Solo adults often slip through caregiving cracks - The Washington Post",
-      "description": "It’s estimated that at least 4.3 million people 55 or older in the United States with cognitive impairment or dementia live alone.",
-      "url": "https://www.washingtonpost.com/wellness/2024/10/18/dementia-cognitive-impairment-alone/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5E5GOD2COYVZUZU7R6SPOPZPXE.jpg&w=1440",
-      "publishedAt": "2024-10-18T12:34:39Z",
-      "content": "Sociologist Elena Portacolone was taken aback. Many of the older adults in San Francisco she visited at home for a research project were confused when she came to the door. Theyd forgotten the appoin… [+7141 chars]"
+      "author": "Carl Wilson",
+      "title": "Lin-Manuel Miranda’s Warriors Musical Pulls Too Many Punches - Slate",
+      "description": "The Broadway virtuoso’s Warriors musical is not going to put an end to the backlash.",
+      "url": "https://slate.com/culture/2024/10/warriors-lin-manuel-miranda-album-musical-movie-lauryn-hill-hamilton.html",
+      "urlToImage": "https://compote.slate.com/images/8c47a131-f9fd-4e3c-ae42-31632edbcdd9.jpeg?width=1560",
+      "publishedAt": "2024-10-18T17:40:00Z",
+      "content": "History has its eyes on you, George Washington sings to Alexander Hamilton midway through Hamilton the musical. Thats a blessing and a curse for those characters, and for an artist too.\r\nHistory was … [+14079 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
+        "name": "YouTube"
       },
-      "author": "Alexandra Canal",
-      "title": "Netflix earnings, subscriber growth top estimates as investors eye potential price hikes - Yahoo Finance",
-      "description": "Netflix stock is rising after the streaming giant beat third quarter EPS and revenue estimates. Here's what to know.",
-      "url": "https://finance.yahoo.com/news/netflix-earnings-subscriber-growth-top-estimates-as-investors-eye-potential-price-hikes-200809380.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Nzz9n04Nd1smZxmg32u_KQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-05/d8f49170-d51c-11ec-b763-fc1244449d42",
-      "publishedAt": "2024-10-18T11:15:00Z",
-      "content": "Netflix (NFLX) stock rose over 6% in premarket trading on Friday after the streaming giant beat third quarter EPS and revenue estimates, and projected sales for the current quarter that came in ahead… [+5214 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CNBC"
-      },
-      "author": "Annika Kim Constantino, Jacob Pramuk",
-      "title": "CVS replaces CEO Karen Lynch with exec David Joyner as profits, share price suffer - CNBC",
-      "description": "David Joyner has replace Karen Lynch as CVS CEO, as the company's stock price and performance suffers.",
-      "url": "https://www.cnbc.com/2024/10/18/cvs-to-replace-ceo-karen-lynch-with-exec-david-joyner.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108049618-1729251602004-108049618-1729251522552-gettyimages-1253662163-SENATE_INSULIN.jpg?v=1729251622&w=1920&h=1080",
-      "publishedAt": "2024-10-18T10:54:18Z",
-      "content": "Longtime CVS Health executive David Joyner has succeeded Karen Lynch as CEO, as the company struggles to drive higher profits and stock performance, CVS announced Friday.\r\nThe move, effective Thursda… [+4354 chars]"
+      "author": null,
+      "title": "China's Economy Struggles with 0.9% Growth | Vantage with Palki Sharma - Firstpost",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "url": "https://www.youtube.com/",
+      "urlToImage": "https://www.youtube.com/img/desktop/yt_1200.png",
+      "publishedAt": "2024-10-18T17:35:00Z",
+      "content": null
     },
     {
       "source": {
@@ -47,142 +34,38 @@
         "name": "BBC News"
       },
       "author": null,
-      "title": "Niall Horan says Liam Payne's death 'doesn't feel real' - BBC.com",
-      "description": "Horan saw his One Direction bandmate recently but didn't know he \"would be saying goodbye forever\".",
-      "url": "https://www.bbc.com/news/articles/ce9jl2vnr01o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/025b/live/27d7b9c0-8d3f-11ef-8e6d-e3e64e16c628.jpg",
-      "publishedAt": "2024-10-18T10:48:29Z",
-      "content": "Niall Horan (right) said \"the bond and friendship we had doesn't happen often in a litetime\"\r\nLiam Payne's former One Direction bandmate Niall Horan has said he is \"absolutely devastated\" by the \"pas… [+3698 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Lee Hutchinson",
-      "title": "Finally upgrading from isc-dhcp-server to isc-kea for my homelab - Ars Technica",
-      "description": "Migrating didn’t hurt as much as I thought it would—and dynamic DNS still works!",
-      "url": "https://arstechnica.com/information-technology/2024/10/finally-upgrading-from-isc-dhcp-server-to-isc-kea-for-my-homelab/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/10/closet-blinken-lights-ips.jpg",
-      "publishedAt": "2024-10-18T10:45:07Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "Elizabeth Wolfe, Ashley Killough, Ed Lavandera, Dakin Andone",
-      "title": "How a stunning 11th-hour race to save a Texas death row inmate from execution in ‘shaken baby’ case unfolded - CNN",
-      "description": "Texas death row inmate Robert Roberson sat praying in a cell Thursday night just feet from the execution chamber where he was set to be put to death for the murder of his toddler – even as the state and his attorneys exchanged frantic 11th-hour legal maneuver…",
-      "url": "https://www.cnn.com/2024/10/18/us/robert-roberson-texas-execution-stay-friday/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/dsc01315.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2024-10-18T10:15:00Z",
-      "content": "Texas death row inmate Robert Roberson sat praying in a cell Thursday night, just feet from the execution chamber where he was set to die by lethal injection for the shaken baby death of his toddler.… [+7883 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Eugene Kim, Jyoti Mann",
-      "title": "AWS CEO says 9 out of 10 employees are 'excited' about RTO, leaked transcript shows - Business Insider",
-      "description": "Matt Garman told staff that returning to the office five days a week would recapture Amazon's pre-pandemic culture.",
-      "url": "https://www.businessinsider.com/amazon-office-policy-aws-ceo-employees-rto-five-days-2024-10",
-      "urlToImage": "https://i.insider.com/67121177a0a0cc14f221eb2c?width=1200&format=jpeg",
-      "publishedAt": "2024-10-18T10:03:00Z",
-      "content": "Amazon Web Services CEO Matt Garman has said that most of the staff he's spoken with favor the company's new five-day return-to-office policy. \r\nThe AWS chief told employees on Thursday that remote w… [+3072 chars]"
-    },
-    {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": "James Mackenzie, Nidal Al-Mughrabi, Samia Nakhoul",
-      "title": "Netanyahu promises more war, dashing peace hopes after Hamas leader killed - Reuters",
-      "description": "Netanyahu called Sinwar's killing a milestone but vowed to keep up the war.",
-      "url": "https://www.reuters.com/world/middle-east/hezbollah-says-it-will-escalate-war-with-israel-after-hamas-leader-killed-2024-10-18/",
-      "urlToImage": "https://www.reuters.com/resizer/v2/Q6PNGDRGGRPPHGFYQT5SES4UVI.jpg?auth=33d2f1b284616a85be296231a7db19f3e0c54f0bfcf6f2b8eddfe2117de76216&height=1005&width=1920&quality=80&smart=true",
-      "publishedAt": "2024-10-18T09:45:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "reuters",
-        "name": "Reuters"
-      },
-      "author": "Ju-Min Park, Jack Kim",
-      "title": "South Korea says North Korea troop dispatch to Russia is 'grave security threat' - Reuters",
-      "description": "South Korea believes North Korea has sent troops to Russia, marking a grave security threat to the international community that Seoul will respond to with all available means, the presidential office said in a statement on Friday.",
-      "url": "https://www.reuters.com/world/south-korea-says-north-korea-troop-dispatch-russia-is-grave-security-threat-2024-10-18/",
-      "urlToImage": "https://www.reuters.com/resizer/v2/466BJJQ7PVGY5O53NZ3KL65MHM.png?auth=b9c3bf166c40a6778eb5672993fde7c30a15f48329026674eff92afd8da1d0ca&height=1005&width=1920&quality=80&smart=true",
-      "publishedAt": "2024-10-18T09:25:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "politico",
-        "name": "Politico"
-      },
-      "author": "John Hendel",
-      "title": "Meet Elon Musk’s man in Washington - POLITICO",
-      "description": "The SpaceX billionaire is forging new ties with a federal telecom official who could help funnel billions of dollars to his company if Trump is elected.",
-      "url": "https://www.politico.com/news/2024/10/18/elon-musk-brendan-carr-fcc-starlink-00184260",
-      "urlToImage": "https://static.politico.com/2e/1c/6d6d6a014eacb6d142da38638a56/election-2024-musk-84201.jpg",
-      "publishedAt": "2024-10-18T09:00:00Z",
-      "content": "Trump has said that if elected, he would name Musk to run a new commission to trim government waste. Musk appeared at a Trump rally and is pumping $75 million into a pro-Trump super PAC. At the same … [+13451 chars]"
+      "title": "King Charles's Australia tour - and why it nearly did not happen - BBC.com",
+      "description": "Eight months after his cancer diagnosis was revealed, this royal tour is important for Charles - and the monarchy.",
+      "url": "https://www.bbc.com/news/articles/c93y2r75ky7o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/f953/live/b51c57c0-8a13-11ef-81f8-1f28bcc5be15.jpg",
+      "publishedAt": "2024-10-18T17:28:59Z",
+      "content": "King Charles III and Queen Camilla are due to arrive in Australia on Friday on a historic royal tour. \r\nEight months ago, I didnt think Id be writing those words.\r\nIn February, Buckingham Palace anno… [+5376 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "BBC News"
+        "name": "Salon"
       },
       "author": null,
-      "title": "Gurpatwant Singh Pannu: US charges ex-India agent in Sikh separatist murder plot - BBC.com",
-      "description": "The US Justice department has charged Vikash Yadav, a former Indian intelligence officer, in the alleged plot.",
-      "url": "https://www.bbc.com/news/articles/cm2949p14k4o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/d018/live/90f257e0-8d0c-11ef-81f8-1f28bcc5be15.jpg",
-      "publishedAt": "2024-10-18T07:54:59Z",
-      "content": "Yadav has been charged with plotting to assassinate Gurpatwant Singh Pannun\r\nThe United States has charged a former Indian intelligence officer for allegedly directing a foiled plot to assassinate an… [+3966 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Jamie Carter",
-      "title": "In Photos: Year’s Largest Supermoon Turns Night To Day Across World As Comet Shines - Forbes",
-      "description": "Two special sights were afforded to sky-watchers across the world on Oct. 17, 2024 as the rise of the year's closest full moon duelled with comet Tsuchinshan-ATLAS.",
-      "url": "https://www.forbes.com/sites/jamiecartereurope/2024/10/18/in-photos-years-largest-supermoon-turns-night-to-day-across-world-as-comet-shines/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/671207c7f294b8cdf168e0f3/0x0.jpg?format=jpg&crop=1779,1000,x213,y167,safe&height=900&width=1600&fit=bounds",
-      "publishedAt": "2024-10-18T07:40:17Z",
-      "content": "A helicopter flies in front of the full moon in Toronto, Ontario on October 17, 2024. (Photo by Mert ... [+] Alper Dervis/Anadolu via Getty Images)\r\nAnadolu via Getty Images\r\nLast night's biggest, br… [+4235 chars]"
+      "title": "Meteor shower to grace Earth this weekend. Here’s how to see it - Salon",
+      "description": "The Orionids will be most visible starting Sunday, Oct. 20",
+      "url": "https://www.salon.com/2024/10/18/meteor-shower-to-grace-earth-this-weekend-heres-how-to-see-it/",
+      "urlToImage": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2024/10/orionids_gettyimages-1364432100.jpg",
+      "publishedAt": "2024-10-18T17:20:00Z",
+      "content": null
     },
     {
       "source": {
         "id": "axios",
         "name": "Axios"
       },
-      "author": "Rebecca Falconer",
-      "title": "Father and son indicted over mass shooting at Georgia school - Axios",
-      "description": "The Apalachee High School shooting killed 4 people and injured nine others.",
-      "url": "https://www.axios.com/2024/10/17/gerogia-school-shooting-father-son-indicted",
-      "urlToImage": "https://images.axios.com/azJesX8H8bncLxmHkmBr7e02R9Y=/0x185:6000x3560/1366x768/2024/10/17/1729206216710.jpg",
-      "publishedAt": "2024-10-18T07:31:28Z",
-      "content": "A father and son were indicted on murder charges Thursday in a mass shooting at Apalachee High School in Winder, Georgia, last month.\r\nThe big picture: Accused shooter Colt Gray, 14, was formally cha… [+1452 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Suntimes.com"
-      },
-      "author": "Georgia Nicols",
-      "title": "Horoscope for Friday, October 18, 2024 - Chicago Sun-Times",
-      "description": null,
-      "url": "https://chicago.suntimes.com/horoscopes/2024/10/18/horoscopes-today-friday-october-18-2024",
-      "urlToImage": "https://cst.brightspotcdn.com/dims4/default/2145dbd/2147483647/strip/true/crop/870x497+0+67/resize/1461x834!/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fac%2Ffd%2F790f04b15195427014757adc0272%2Fgeorgia-nicols.jpg",
-      "publishedAt": "2024-10-18T05:03:06Z",
-      "content": "Moon Alert\r\nThere are no restrictions to shopping or important decisions. The moon is in Taurus.\r\nThe Stars Rate Your Day\r\nDynamic;Positive;Average;So-so;Difficult.\r\nAries (March 21-April 19)\r\n When … [+3821 chars]"
+      "author": "April Rubin",
+      "title": "More docs unsealed in Jack Smith's Jan. 6 case against Trump - Axios",
+      "description": "Trump's lawyers requested to delay the release of evidence until after the election.",
+      "url": "https://www.axios.com/2024/10/18/trump-jan-6-jack-smith-dossier-redacted",
+      "urlToImage": "https://images.axios.com/lsETKC5mmtkQKHvLYNf_CjnMPDQ=/0x59:6000x3434/1366x768/2024/10/18/1729267571943.jpg",
+      "publishedAt": "2024-10-18T16:54:26Z",
+      "content": "A D.C. federal courton Friday released heavily redacted volumes of evidence in special counsel Jack Smith's Jan. 6 case against former President Trump.\r\nThe big picture: The evidence, much of which w… [+2986 chars]"
     },
     {
       "source": {
@@ -190,77 +73,194 @@
         "name": "BBC News"
       },
       "author": null,
-      "title": "How the India-Canada fallout could affect trade and immigration - BBC.com",
-      "description": "The stakes for both countries are high as the rift over allegations that India ran a campaign to intimidate Sikh separatists in Canada deepens.",
-      "url": "https://www.bbc.com/news/articles/c5y9v7ed7pko",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/bd0f/live/aff0f610-8cad-11ef-9e4a-81fe6e2d3b5a.jpg",
-      "publishedAt": "2024-10-18T04:33:22Z",
-      "content": "After a bombshell accusation from Canadian officials this week - that they believe India government agents were linked to a campaign of murder and extortion in the country - diplomatic relations hit … [+4858 chars]"
+      "title": "Liam Payne: Simon Cowell says he feels \"empty\" after singer's death - BBC.com",
+      "description": "The X Factor supremo describes the late One Direction singer as \"thoughtful, talented, humble\".",
+      "url": "https://www.bbc.com/news/articles/cn4ye7dz1ddo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/ab60/live/a449e480-8d79-11ef-b3c2-754b6219680e.jpg",
+      "publishedAt": "2024-10-18T16:53:57Z",
+      "content": "Cowell said Payne's son Bear \"will be so proud of everything that you have achieved\"\r\nSimon Cowell has paid tribute to One Direction star Liam Payne, saying he is \"heartbroken\" and feels \"empty\" foll… [+3853 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Ed Cara",
+      "title": "Ozempic Could Be Lifesaving for Thousands of Americans a Year, Study Finds - Gizmodo",
+      "description": "New research estimates that expanded access to Ozempic and similar drugs could lead to 42,000 deaths prevented annually.",
+      "url": "https://gizmodo.com/ozempic-could-be-lifesaving-for-thousands-of-americans-a-year-study-finds-2000513535",
+      "urlToImage": "https://gizmodo.com/app/uploads/2024/10/Ozempic-injection.jpg",
+      "publishedAt": "2024-10-18T16:50:52Z",
+      "content": "The benefits of Ozempic and similar medications could be profound on a population level. New research has estimated that expanding access to these newer weight loss and diabetes drugs could save thou… [+4979 chars]"
     },
     {
       "source": {
         "id": "espn",
         "name": "ESPN"
       },
-      "author": "Jeff Passan",
-      "title": "Ohtani, Betts lead way as L.A. puts Mets on brink - ESPN",
-      "description": "Shohei Ohtani pummeled a leadoff home run, Mookie Betts went 4-for-6 with a homer and four RBIs, and the Dodgers moved one win away from the World Series on Thursday night.",
-      "url": "https://www.espn.com/mlb/story/_/id/41859232/dodgers-roll-mets-game-4-take-3-1-lead-nlcs",
-      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1018%2Fr1402090_1296x729_16%2D9.jpg",
-      "publishedAt": "2024-10-18T04:09:25Z",
-      "content": "NEW YORK -- Don't give in to the nibble. The mantra the Los Angeles Dodgers followed in their shellacking of the New York Mets on Thursday night in Game 4 of the National League Championship Series w… [+6345 chars]"
+      "author": "Jeff Borzello",
+      "title": "UVA's Bennett cites state of game for retirement - ESPN",
+      "description": "Tony Bennett cited the current environment in college basketball as a reason for his abrupt retirement as Virginia coach.",
+      "url": "https://www.espn.com/mens-college-basketball/story/_/id/41868376/uva-tony-bennett-cites-state-game-retirement",
+      "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0222%2Fr977963_1296x729_16%2D9.jpg",
+      "publishedAt": "2024-10-18T16:37:00Z",
+      "content": "Former Virginia men's basketball coach Tony Bennett, who officially announced his retirement Friday morning, pointed to the \"current environment\" in college sports as one of the driving forces behind… [+5510 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "Foreign Affairs"
+        "id": "cnn",
+        "name": "CNN"
       },
-      "author": "Adam S. Posen",
-      "title": "The True Dangers of Trump’s Economic Plans - Foreign Affairs Magazine",
-      "description": "His radical agenda would wreak havoc on American businesses, workers, and consumers.",
-      "url": "https://www.foreignaffairs.com/united-states/true-dangers-trumps-economic-plans",
-      "urlToImage": "https://cdn-live.foreignaffairs.com/sites/default/files/styles/social_share/public/images/2024/10/17/2024-10-10T040428Z_1261783062_RC2BHAAMQWN8_RTRMADP_3_USA-ELECTION-TRUMP.JPG?itok=KuUJqDKz",
-      "publishedAt": "2024-10-18T04:00:00Z",
-      "content": "Many well-informed observers and a substantial share of voters in the United States are calm, if not excited, about the economic program that Donald Trump would pursue in what would be his second ter… [+16640 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Michael E. Miller",
-      "title": "For Charles’s first visit as king, Australians are royally unimpressed - The Washington Post",
-      "description": "King Charles III is set to make his longest trip abroad since starting cancer treatment, but Australians are not exactly excited about his imminent arrival.",
-      "url": "https://www.washingtonpost.com/world/2024/10/17/king-charles-australia-visit-royal-tour/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3XJBRBYS3B7ZKR2MZMOR6NPYDU.JPG&w=1440",
-      "publishedAt": "2024-10-18T04:00:00Z",
-      "content": "SYDNEY When King Charles III arrives in Australia on Friday, hell receive rock star treatment just not in the way he might have hoped.\r\nInstead of drawing the massive crowds that often awaited his mo… [+6533 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "The Denver Post"
-      },
-      "author": "Sean Keeler",
-      "title": "Broncos four downs: If Bo Nix mechanics can get fixed, Sean Payton’s Broncos look like (gasp) playoff team again - The Denver Post",
-      "description": "Initial thoughts from the Broncos’ 33-10 win over the New Orleans Saints in Week 7 at Caesars Superdome.",
-      "url": "https://www.denverpost.com/2024/10/17/broncos-bo-nix-sean-payton-playoff-team-again-saints/",
-      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2024/10/TDP-L-BRONCOS-SAINTSA03_2453xxx.jpg?w=1024&h=762",
-      "publishedAt": "2024-10-18T03:43:08Z",
-      "content": "Initial thoughts from the Broncos 33-10 win over the New Orleans Saints in Week 7 at Caesars Superdome:\r\n1. Bo was bad, and it didn’t matter: It wasn’t a bad opening drive for Bo Nix. It was a brutal… [+3203 chars]"
+      "author": "Kathleen Magramo, Christian Edwards, Tori B. Powell, Sophie Tanno",
+      "title": "Hamas leader Yahya Sinwar killed in Gaza: Live updates - CNN",
+      "description": "Hamas leader Yahya Sinwar, believed to be an architect of the militant group’s deadly October 7, 2023, terror attack that set off the war in Gaza, was killed by Israeli forces. Follow for live news updates.",
+      "url": "https://www.cnn.com/world/live-news/israel-hamas-lebanon-sinwar-gaza-iran-10-18-24-intl-hnk/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/ap22103558821553-20241018020154539-20241018020318104.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-10-18T16:26:00Z",
+      "content": "Israel succeeded Wednesday in its year-long mission to kill Hamas leader Yahya Sinwar, the man accused of being one of the masterminds of the October 7, 2023 attacks.\r\nBut while Sinwars death is a hu… [+2151 chars]"
     },
     {
       "source": {
         "id": "the-washington-post",
         "name": "The Washington Post"
       },
-      "author": "Gene Wang",
-      "title": "Virginia men’s basketball coach Tony Bennett to retire, effective immediately - The Washington Post",
-      "description": "Bennett, 55, guided the Cavaliers for 15 seasons and led them to the 2019 NCAA championship.",
-      "url": "https://www.washingtonpost.com/sports/2024/10/17/tony-bennett-virginia-retires/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/242RJVUZFBFFJCV3J6DOXICMRM.jpg&w=1440",
-      "publishedAt": "2024-10-18T03:42:51Z",
-      "content": "Tony Bennett is retiring as Virginias mens basketball coach after 15 seasons, effective immediately, the school announced Thursday in a stunning development that leaves the Cavaliers facing considera… [+420 chars]"
+      "author": "Siobhán O'Grady, Michelle Ye Hee Lee, Ellen Francis",
+      "title": "South Korea says at least 1,500 North Korean special forces in Russia - The Washington Post",
+      "description": "South Korea’s spy agency said the direct military cooperation between Russia and North Korea has been confirmed with its new evidence.",
+      "url": "https://www.washingtonpost.com/world/2024/10/18/north-korea-russia-ukraine-troops-buryat/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AAYGTEBDKO5Y7JZOXFTLK6MM2M.JPG&w=1440",
+      "publishedAt": "2024-10-18T16:07:10Z",
+      "content": "South Koreas spy agency reported Friday that at least 1,500 North Korean Special Forces are training in far eastern Russia, and it showed satellite photos tracking their movements. Ukrainian official… [+5843 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "[Removed]"
+      },
+      "author": null,
+      "title": "[Removed]",
+      "description": "[Removed]",
+      "url": "https://removed.com",
+      "urlToImage": null,
+      "publishedAt": "2024-10-18T16:00:13Z",
+      "content": "[Removed]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Katie Campione",
+      "title": "‘Agatha All Along’ Showrunner Talks Billy’s Backstory, Evan Peters’ MCU Return & What’s To Come On The Witches Road - Deadline",
+      "description": "Agatha All Along showrunner Jac Schaeffer spoke with Deadline about Billy's backstory, Evan Peters' MCU return and what's to come on the Witches Road.",
+      "url": "http://deadline.com/2024/10/agatha-all-along-showrunner-talks-episode-6-billy-backstory-evan-peters-1236119968/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2024/10/MPY-106-14867_R_f89ed3.jpeg?w=1000",
+      "publishedAt": "2024-10-18T16:00:00Z",
+      "content": "SPOILER ALERT: This post contains details from the sixth episode of Marvel Studios’ Agatha All Along.\r\nAgatha All Along viewers have a lot more answers than they did two weeks ago, but there’s still … [+16157 chars]"
+    },
+    {
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+      },
+      "author": "Benj Edwards",
+      "title": "OpenAI releases ChatGPT app for Windows - Ars Technica",
+      "description": "New Alt+Space shortcut puts OpenAI’s assistant a key press away at all times.",
+      "url": "https://arstechnica.com/ai/2024/10/openai-releases-chatgpt-app-for-windows/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/07/openai_microsoft_3.jpg",
+      "publishedAt": "2024-10-18T15:42:46Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Emma Roth",
+      "title": "Google’s NotebookLM now lets you guide the hosts of your AI podcast - The Verge",
+      "description": "Google’s NotebookLM now lets you customize its podcast-like Audio Overviews, allowing you to tailor the conversation of its AI “hosts.”",
+      "url": "https://www.theverge.com/2024/10/18/24273411/google-notebooklm-ai-audio-overview-customize",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/acjM1CnlZfkPDQem3dZ3VtxxL24=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25362061/STK_414_AI_CHATBOT_R2_CVirginia_D.jpg",
+      "publishedAt": "2024-10-18T15:36:29Z",
+      "content": "Googles NotebookLM now lets you guide the hosts of your AI podcast\r\nGoogles NotebookLM now lets you guide the hosts of your AI podcast\r\n / You can now ask your AI hosts to talk about a specific topic… [+1488 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WSLS 10"
+      },
+      "author": "Parker Beasley",
+      "title": "NOAA has released its Winter Outlook for the 2024-25 season; here’s what they predicted - WSLS 10",
+      "description": "The National Oceanic and Atmospheric Administration released its U.S. Winter Outlook for the 2024-2025 season on Thursday.",
+      "url": "https://www.wsls.com/weather/2024/10/18/noaa-has-released-its-winter-outlook-for-the-2024-25-season-heres-what-they-predicted/",
+      "urlToImage": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/VNUTSHDEBBEXFJCLSA4GWH3YDA.jpg?_a=DATAdtfiZAA0",
+      "publishedAt": "2024-10-18T15:14:53Z",
+      "content": "ROANOKE, Va. The National Oceanic and Atmospheric Administration released its U.S. Winter Outlook for the 2024-2025 season on Thursday. We are breaking down what it means for Southwest and Central Vi… [+1434 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "[Removed]"
+      },
+      "author": null,
+      "title": "[Removed]",
+      "description": "[Removed]",
+      "url": "https://removed.com",
+      "urlToImage": null,
+      "publishedAt": "2024-10-18T15:00:00Z",
+      "content": "[Removed]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Rolling Stone"
+      },
+      "author": "Rachel Brodsky",
+      "title": "Mikey Madison’s Cinderella Story Is Just Beginning - Rolling Stone",
+      "description": "'Better Things' actress talks about preparing to play an exotic dancer for her lead part in director Sean Baker's award-winning film",
+      "url": "http://www.rollingstone.com/tv-movies/tv-movie-features/mikey-madison-anora-interview-1235135116/",
+      "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2024/10/WEB_MikeyFinal3.jpg?crop=0px%2C227px%2C1920px%2C1081px&resize=1600%2C900",
+      "publishedAt": "2024-10-18T15:00:00Z",
+      "content": "Mikey Madison has come bearing snacks. The Anora star and I are scheduled to meet in Woodbridge Park — a blip of a green space in Studio City, California, with picturesque benches, a sprawling playgr… [+6911 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Barron's",
+      "title": "Nvidia Stock Rises to End Wild Week. How Shares Could Rise Another 40%. - Barron's",
+      "description": null,
+      "url": "https://www.barrons.com/articles/nvidia-stock-microsoft-meta-earnings-22671323",
+      "urlToImage": null,
+      "publishedAt": "2024-10-18T14:48:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Space.com"
+      },
+      "author": "Robert Lea",
+      "title": "Hunter's Moon supermoon 2024 puts on a frightfully good show for skywatchers around the world (photos) - Space.com",
+      "description": "The biggest and brightest moon of the year gets spooky.",
+      "url": "https://www.space.com/hunters-moon-supermoon-2024-photos",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/NHDk5v55QTG3AjKGgafsuc-1200-80.jpg",
+      "publishedAt": "2024-10-18T14:33:38Z",
+      "content": "The largest and brightest full moon of 2024 lit up the skies of Earth on Thursday (Oct. 17), with skywatchers across the globe on hand to capture the lunar face in its full glory.\r\nThis Hunter's \"sup… [+9002 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CBS Sports"
+      },
+      "author": null,
+      "title": "2024 Week 7 NFL score predictions, odds, picks: Expert releases exact scores for all 14 remaining games - CBS Sports",
+      "description": "SportsLine expert Eric Cohen reveals his score predictions for all 15 games in Week 7 of the NFL season",
+      "url": "https://www.cbssports.com/nfl/news/2024-week-7-nfl-score-predictions-odds-picks-expert-releases-exact-scores-for-all-14-remaining-games/",
+      "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/04/10/8bf6eabe-448e-4807-b64c-9396fb8f50b5/thumbnail/1200x675/541521287f3c40cbd3a6ebb874cff4ee/usatsi-lamar-jackson-ravens-2.jpg",
+      "publishedAt": "2024-10-18T14:12:13Z",
+      "content": "Home teams struggled mightily in Week 6, with true road teams being victorious in 10 of 13 games. Of those 10 victories, nine were courtesy of favorites. In total, favorites went 13-1 last week, with… [+2699 chars]"
     }
   ]
 }

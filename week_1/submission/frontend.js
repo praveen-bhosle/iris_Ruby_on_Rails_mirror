@@ -1,6 +1,5 @@
 NUMBER = 20
 
-
 async function fetchFromDB() {
     spinner();
     // Fetch the local JSON file... apparently cannot do without fetch from browser
@@ -43,8 +42,6 @@ async function fetchFromJS(query) {
     }
 
 }
-
-
 
 function articlesToDOM(json) {
     const container = document.querySelector('.container');
@@ -97,6 +94,7 @@ function articlesToDOM(json) {
         // Append elements to the articleDiv
         articleDiv.appendChild(title);
         articleDiv.appendChild(authorSource);
+        //if image doesn't exist, don't render
         image !== undefined ? articleDiv.appendChild(image) : (0);
         articleDiv.appendChild(description);
         articleDiv.appendChild(readMore);
@@ -108,26 +106,6 @@ function articlesToDOM(json) {
 
     container.replaceChildren(...articleElements);
 
-}
-
-async function keyToSearch(event) {
-    if (event.key === "Enter") {
-        document.querySelector(".search-button").click();
-    }
-}
-
-function spinner() {
-    const spinner = document.getElementById('spinner')
-    console.log(spinner.classList)
-    if (spinner.classList.contains('vanish')) {
-        console.log("TRUE")
-        spinner.classList.remove('vanish')
-    }
-    else
-    {
-        console.log("FALSE")
-        spinner.classList.add('vanish')
-    }
 }
 
 async function handleSearch() {
@@ -142,12 +120,27 @@ async function handleSearch() {
     spinner();
 }
 
+function spinner() {
+    const spinner = document.getElementById('spinner')
+    console.log(spinner.classList)
+    if (spinner.classList.contains('vanish')) {
+        console.log("TRUE")
+        spinner.classList.remove('vanish')
+    }
+    else {
+        console.log("FALSE")
+        spinner.classList.add('vanish')
+    }
+}
+
+function keyToSearch(event) {
+    if (event.key === "Enter") {
+        document.querySelector(".search-button").click();
+    }
+}
+
 document.querySelector('.search-button').addEventListener('click', handleSearch);
 document.addEventListener("keypress", keyToSearch)
-
-
-
-
 fetchFromDB()
 
 
