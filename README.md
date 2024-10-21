@@ -1,7 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16653131&assignment_repo_type=AssignmentRepo)
 # IRIS Ruby on Rails Bootcamp 2024
 IRIS Ruby on Rails Bootcamp will be a month-long training program for the students to learn programming skills through a hands-on experience, mentored by developers from IRIS Web team.
- 
+
 You will be shared detailed tutorials where we teach development the IRIS way, with weekly assignments to apply your learning.
 
 ## [Essential Git](/essential_git.md)
@@ -16,3 +16,8 @@ if you face any issues while installing ruby [locally](/setup/local_setup.md).
 In the first week, we will introduce you to basic concepts related to Web Development, Ruby and Git.
 
 **Deadline**: 21 / 10 / 2024, 11:59pm
+
+## [Week 2 - Models in RoR](/week_2)
+In the first week, we will introduce you to the models in RoR and make you write some code as well.
+
+**Deadline**: 26 / 10 / 2024, 11:59pm
