@@ -18,6 +18,11 @@ In the first week, we will introduce you to basic concepts related to Web Develo
 **Deadline**: 21 / 10 / 2024, 11:59pm
 
 ## [Week 2 - Models in RoR](/week_2)
-In the first week, we will introduce you to the models in RoR and make you write some code as well.
+In the second week, we will introduce you to the models in RoR and make you write some code as well.
 
 **Deadline**: 26 / 10 / 2024, 11:59pm
+
+## [Week 3 - Controllers in RoR](/week_3)
+In the third week, we will introduce you to controllers in RoR and make you work on the interaction between the frontend and the backend
+
+**Deadline** 1 / 11 / 2024, 11:59pm
