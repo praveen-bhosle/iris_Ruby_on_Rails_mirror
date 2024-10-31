@@ -1,0 +1,49 @@
+<body style="background: #0A1828 ; color: wheat ; padding: 0px  10px ; display:flex ; align-items:center ; justify-content:center ; height:100vh" >  
+
+<div style=" border: 1px solid white ; padding: 20px ; border-radius: 8px ; width:90%   "> 
+
+<%= form_with(model: @response  , url: responses_path ,  local: true ) do |f| %>  
+
+    <% @form = Form.find_by(id: @response.form_id ) %> 
+     
+    <h1 style="text-align: center ; font-size: 24px ;  margin-bottom: 20px;" > <%=  @form.name  %>  form </h1>  
+    
+    <%= f.hidden_field :form_id ,  value: @form.id %>  
+
+    <% @response.answers.each  do |answer| %> 
+        <%= f.fields_for :answers , answer do |a| %>  
+        <div class="field" style="margin-bottom:15px;" > 
+            <label style="display:block ; font-weight:bold ; margin-bottom:5px "> <%= answer.form_field.field_text %>  </label> 
+            
+            <% if answer.form_field.field_type == 'radio' %> 
+                 <% @options = FormFieldOption.where(form_field_id: answer.form_field.id) %> 
+                 <% @options.each do |option| %> 
+                    <div style= "margin: 5px 0 ">  
+                     <%= a.radio_button :response_radio_choice ,  option.option , style: "margin-right: 5px" %> 
+                     <%= a.label  option.option , option.option  %> 
+                     </div> 
+                 <% end %>      
+            
+            <% elsif answer.form_field.field_type == 'checkbox' %> 
+                 <% @options = FormFieldOption.where(form_field_id: answer.form_field.id) %> 
+                 <% @options.each do |option| %> 
+                    <div style="margin:5px 0"> 
+                      <%= a.check_box :response_checkbox_choices , { multiple: true } ,   option.option ,      nil     %> 
+                      <%= a.label option.option , option.option ,style:"margin-left: 5px"  %> 
+                    </div> 
+                 <% end %>   
+            
+            <% elsif  answer.form_field.field_type == 'text' %> 
+                     <%= a.text_field  :response_text , style:"width:40%  ; padding: 10px "  %> 
+            <% end %>  
+
+            <%= a.hidden_field :form_field_id , value: answer.form_field.id %> 
+
+        </div>  
+        <% end %> 
+    <% end %> 
+    
+    <%= f.submit "Submit" , style: "width: 100% ; padding : 10px  ; cursor:pointer ;  font-size:16px ; border:none   ; border-radius: 5px ;  background-color: #4CAF50  ; color:white " %>  
+<% end %>   
+</div> 
+</body> 

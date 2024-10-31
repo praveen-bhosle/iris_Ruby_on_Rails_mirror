@@ -1,10 +1,10 @@
 class FormField < ApplicationRecord
   belongs_to :form
   belongs_to :section
-  has_many :answer  ,  dependent: :destroy
-  has_many :form_field_option ,   dependent: :destroy  
+  has_many :answers  ,  dependent: :destroy
+  has_many :form_field_options ,   dependent: :destroy  
 
-  enum :field_type { 
+  enum field_type: { 
     radio: 0 ,
     checkbox: 1 , 
     text: 2  

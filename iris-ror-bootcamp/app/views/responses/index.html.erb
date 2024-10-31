@@ -1,0 +1,35 @@
+<body style="background: #0A1828 ; color: wheat ; padding: 0px  10px" > 
+<h1> Responses </h1> 
+ 
+<div style="display:flex ;  flex-wrap: wrap ; justify-content:space-between ;  box-sizing: border-box ; border: 3px solid red ; 
+   "   > 
+<% @responses.each  do |response|  %>  
+    <div style="border: 3px solid #BFA181 ; padding: 10px ;  flex: 0 0 48%  ; margin: 1%  ; box-sizing:  border-box;  
+        background:#0A1828; color: yellow ; border-radius: 10px; 
+    "  >  
+    <% @form = Form.find_by(id: response.form_id) %>
+    <h2> Name of the form : <%= @form.name  %></h2>   
+    <p>ID of the response : <%=  response.id %></p> 
+     <% response.answers.each  do |answer| %>  
+      
+        
+        <%if answer.response_text != nil %>  
+        <h3> Name:  <%=     answer.response_text  %>   </h3>  
+        <%elsif answer.response_radio_choice != nil %> 
+        <h3> Course:    <%= answer.response_radio_choice  %> </h3> 
+        <%elsif answer.response_checkbox_choices.present?  %> 
+        <h3> Interested in:  </h3> 
+        <ol> 
+        <% answer.response_checkbox_choices.split(',').each  do  |choice|   %> 
+            <li> <h4> <%= choice_ =  choice.gsub(/[\[\]"]/, '')  %>  </h4>  </li>  
+        <% end %> 
+        </ol> 
+        <% end %> 
+     
+     <% end %>  
+    </div>      
+
+<% end %> 
+</div>
+
+</body> 

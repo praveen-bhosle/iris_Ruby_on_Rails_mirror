@@ -1,0 +1,8 @@
+
+<body style="background: #0A1828 ; color: wheat; display: flex ; justify-content:center ; align-items:center ; min-height: 90vh  " >  
+<div> 
+<h1> <%= @form_details.name %> </h1> 
+<h2>  <%= @form_details.description %> </h2>   
+<p> <%=  link_to "Create New Response" , new_response_form_path(@form_details) , style: "color: wheat " %>  </p>  
+</div> 
+</body> 

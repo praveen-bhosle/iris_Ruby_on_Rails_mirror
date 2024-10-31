@@ -7,9 +7,9 @@ class Form < ApplicationRecord
      I had to use , "dependent: :destroy" which tells the ruby to delete the associated records  , when this will be destoyed  
 =end  
  
-has_many :form_field  , dependent: :destroy
-has_many :response  , dependent: :destroy  
-has_many :section , dependent: :destroy  
+has_many :form_fields  , dependent: :destroy
+has_many :responses  , dependent: :destroy  
+has_many :sections , dependent: :destroy  
 
 scope :recent, -> { order(created_at: :desc)}   
 #scope :by_title, ->(title) {where('name ILIKE ?' ,  "%#title%" )} --> not working 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_10_24_171350) do
+ActiveRecord::Schema[7.2].define(version: 2024_10_30_183103) do
   create_table "add_form_id_to_sections", force: :cascade do |t|
     t.integer "form_id", null: false
     t.datetime "created_at", null: false
@@ -24,6 +24,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_24_171350) do
     t.string "response_text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "response_radio_choice"
+    t.string "response_checkbox_choices"
     t.index ["form_field_id"], name: "index_answers_on_form_field_id"
     t.index ["response_id"], name: "index_answers_on_response_id"
   end
@@ -62,7 +64,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_24_171350) do
     t.integer "section_id"
     t.index ["form_id"], name: "index_responses_on_form_id"
     t.index ["section_id"], name: "index_responses_on_section_id"
-  end
+  end 
 
   create_table "sections", force: :cascade do |t|
     t.string "name"

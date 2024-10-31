@@ -1,5 +1,5 @@
 class Section < ApplicationRecord 
     belongs_to :form 
-    has_many :form_field   dependent: :destroy
-    has_many :response  , dependent: :destroy
+    has_many :form_fields ,  dependent: :destroy
+    has_many :responses  , dependent: :destroy
 end
