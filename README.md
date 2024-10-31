@@ -29,4 +29,4 @@ In the third week, we will introduce you to controllers in RoR and make you work
 ## [Week 4 — Authentication and Authorization](/week_4)
 In the fourth week, we will introduce you to the concepts of authentication and authorization and implement them in RoR with the help of `devise` and `cancancan` gems.
 
-**Deadline** 5 / 11 / 2024, 11:59pm
+**Deadline** 7 / 11 / 2024, 11:59pm
