@@ -4,7 +4,8 @@
 
 With `devise` and `cancancan` setup, we can now define authorization rules for our application.
 
-1. Next, we need to create a migration to update our forms table (You may want to delete everything in your database  before running this migration).
+1. We need to create a migration to update our forms table (You may want to delete everything in your database before
+   running this migration).
     * Run the following command in the terminal:
         ```bash
         rails generate migration AddUserRefToForms 
@@ -43,7 +44,8 @@ With `devise` and `cancancan` setup, we can now define authorization rules for o
     ```
     * The `:manage` and `:all` symbols are special `cancancan` keywords that allow the user to perform any action on any
       model.
-    * The gems `devise` and `cancancan` harmoniously work together. The `user` parameter is obtained from the `current_user` method provided by `devise`, while `cancancan` enforce the rules defined in the `Ability` class.
+    * The gems `devise` and `cancancan` harmoniously work together. The `user` parameter is obtained from the
+      `current_user` method provided by `devise`, while `cancancan` enforce the rules defined in the `Ability` class.
 3. Adding authorization to controllers is easy, just add the following line to the top of the controller:
     ```ruby
     load_and_authorize_resource
@@ -56,21 +58,24 @@ With `devise` and `cancancan` setup, we can now define authorization rules for o
       ...
     end
     ```
-   * As an exercise, add the line to all your controllers.
-   * Along with authorization, this method also loads the resource for you. You can access the loaded resource using the `@resource` instance variable.
-      * A peek behind the scenes of what this method does. It generates the definition of the `index` and `show` actions in the controller as follows:
-     ```ruby
-        def index
-          @resources = Resource.accessible_by(current_ability)
-        end
-     
-        def show
-          @resource = Resource.find(params[:id])
-          authorize! :show, @resource
-        end
-        ```
-     * With these basic definitions, you can extend these actions to your heart's content.
-4. Since we added new columns to our forms table, we need to update the `edit` and `create` options in the `forms_controller.rb` file.
+    * As an exercise, add the line to all your controllers.
+    * Along with authorization, this method also loads the resource for you. You can access the loaded resource using
+      the `@resource` instance variable.
+        * A peek behind the scenes of what this method does. It generates the definition of the `index` and `show`
+          actions in the controller as follows:
+      ```ruby
+         def index
+           @resources = Resource.accessible_by(current_ability)
+         end
+      
+         def show
+           @resource = Resource.find(params[:id])
+           authorize! :show, @resource
+         end
+         ```
+        * With these basic definitions, you can extend these actions to your heart's content.
+4. Since we added new columns to our forms table, we need to update the `edit` and `create` options in the
+   `forms_controller.rb` file.
     * Update the `create` method to add this line:
     ```ruby
     def create
@@ -80,8 +85,9 @@ With `devise` and `cancancan` setup, we can now define authorization rules for o
     end
     ```
     * Update the `form_params` method to permit the `public` attribute. This is left as an exercise to you.
-    * Update `views/forms/_form.html.erb` to include a checkbox for the `public` attribute. This is left as an exercise to you.
-5. Finally, go back to the `ability.rb` file and rules for the following cases:
-   * If a form is public, anyone can create a response to it.
-   * If a form is not public, only signed-in users can create a response to it.
-   * Only the owner of a form can view the responses to forms created by them.
+    * Update `views/forms/_form.html.erb` to include a checkbox for the `public` attribute. This is left as an exercise
+      to you.
+5. Finally, go back to the `ability.rb` file and implement rules for the following cases:
+    * If a form is public, anyone can create a response to it.
+    * If a form is not public, only signed-in users can create a response to it.
+    * Only the owner of a form can view the responses to forms created by them.
