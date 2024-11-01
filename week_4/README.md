@@ -33,7 +33,7 @@ between the two, and how to implement them in Ruby on Rails.
     * Learn what is authorization and implement it in you application with the help of the CanCanCan gem.
 * Add authorization to your forms - [Steps](./authorization-2.md)
   * Forms can be public or private. Forms can be created by logged-in users only. Only the creator of a form can edit or delete it. Responses to a form can be viewed only by the creator of the form. Public forms can be viewed by anyone. Private forms can be viewed only by signed-in users.
-* BONUS: Style the auth pages and make it look amazing. To do this, you will have to modify the default views provided by Devise. Read through the [documentation](https://github.com/heartscombo/devise) to understand how to do this.
+* BONUS: Style the auth pages and make it look amazing. To do this, you will have to modify the default views provided by Devise. Read through the [documentation](https://github.com/heartcombo/devise) to understand how to do this.
 * BONUS: Reconfigure the Devise Routes:
   * `/users/sign_in` should be `/login`
   * `/users/sign_up` should be `/register`
