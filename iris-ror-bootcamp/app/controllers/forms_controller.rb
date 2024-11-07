@@ -34,10 +34,13 @@ class FormsController < ApplicationController
         end 
     end  
 
-    def create  
+    def create   
+        @form = Form.new(form_params.merge(user_id: current_user.id)) 
         if @form.save  
-        redirect_to user_path 
+        redirect_to root_path  , notice: 'The form was created successfully'
         else  
+        Rails.logger.debug(@form.errors.full_messages) 
+        flash.now[:notice] = 'Internal server error'  
         render :new  
         end 
     end  
@@ -74,6 +77,12 @@ class FormsController < ApplicationController
     def set_form 
         @form = Form.find(params[:id]) 
     end 
-=end 
+=end  
+
+    private 
+
+    def form_params 
+        params.require(:form).permit(:name ,  :description ,  :user_id  , :public ) 
+    end 
 
 end   

@@ -4,11 +4,11 @@ Rails.application.routes.draw do
   get 'login'    , to: 'home_page#login'  
   get 'register' , to: 'home_page#register' 
   get 'logout'   , to: 'home_page#logout' 
-    resources :forms , only: [:index , :show , :new , :create  , :destroy  ,  :edit  ] do 
+    resources :forms , only: [:index , :show , :new , :create  , :destroy  ,  :edit  ,:update  ] do 
         member do  
             get 'new_response'  
             get 'responses' 
         end 
     end 
-    resources :responses  , only: [:index , :create]       
+    resources :responses  , only: [:index , :create  ]       
 end  

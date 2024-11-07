@@ -57,12 +57,12 @@
 <% @my_forms.each  do |form| %> 
     
     <div class="form-unit"> 
-    <h1> <%= form.name %> </h1> <br/> 
+    <h2> <%= form.name %>   </h2> <br/> 
     <h3> <%= form.description %> </h3> <br/> 
     <%=  link_to 'Fill the form' ,  new_response_form_path(form) %> <br/> 
-    <%= link_to 'Delete the form' ,   delete_form_path(form) ,  method: :delete ,  data: {confirm: 'Are you sure want to delete this form?' } %> <br/> 
+    <%= link_to 'Delete the form' ,   form_path(form) ,  method: :delete ,  data: {confirm: 'Are you sure want to delete this form?' } %> <br/> 
     <%= link_to 'Edit the form ' , edit_form_path(form) %> <br/>  
-    <%= link_to 'Check out the responses' , response_path(form)     %> 
+    <%= link_to 'Check out the responses' , responses_form_path(form)      %> 
     </div>  
 
 <% end %> 
@@ -75,11 +75,12 @@
 
 </div>  
 
-<div> 
 
-<%= link_to 'Create Form' ,  new_form_path  %>    
 
-</div> 
+
+<%= link_to 'Create Form' ,  new_form_path , style:"color:white; text-align:center; width:100vw; display:block;"   %>    
+
+
 
 </div> 
 

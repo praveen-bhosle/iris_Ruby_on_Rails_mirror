@@ -26,49 +26,34 @@ body {
 
 }
 
-.container p { 
+.container p  { 
     text-align: center; 
-}
-
-
+} 
 
 .container_devise{ 
- 
     padding: 5px;  
-
     position:  relative; 
     left: 60px ; 
- 
 }   
 
 .form_container_devise { 
     display:  flex ;
     padding: 5px; 
-   
-    
-
 } 
 
 .field{  
-    
     margin: 10px 0px ; 
     font-size:  x-large ;
-
 } 
 
 
 .actions { 
-   
    font-size: xx-large  ;   
-
-  
 }
  
 
 .form-unit{ 
     margin: 2px 0px ;  
-
-
 }
 
 .form_container{  
