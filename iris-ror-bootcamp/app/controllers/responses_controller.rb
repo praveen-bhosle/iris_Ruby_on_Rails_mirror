@@ -1,4 +1,7 @@
-class ResponsesController < ApplicationController 
+class ResponsesController < ApplicationController  
+
+    load_and_authorize_resource 
+
     def create 
         @response = Response.new(response_params) 
 
@@ -12,9 +15,10 @@ class ResponsesController < ApplicationController
     end 
 
     def index  
-        @responses = Response.all  
-    end 
+         #@responses = Response.all   
+    end  
 
+    private 
     def response_params 
         params.require(:response).permit(:form_id  ,answers_attributes: [ :form_field_id   ,    :response_text  ,  :response_radio_choice , response_checkbox_choices: [] ]   )  
     end 

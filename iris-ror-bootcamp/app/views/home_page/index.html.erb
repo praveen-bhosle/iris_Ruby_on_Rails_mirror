@@ -1,0 +1,103 @@
+<div class="container"> 
+<div>     
+<h1> Public Forms </h1>     
+
+<% if @public_forms.present? %> 
+
+<%  @public_forms.each do |form| %>   
+    <div class="form-unit">  <h1> <%= form.name %> </h1> <br/> 
+    <h3> <%= form.description %> </h3> <br/> 
+           <%= link_to 'Fill the form'  ,  new_response_form_path(form) %>  
+    </div>  
+
+<% end %> 
+
+<% else  %>   
+
+<p> No public forms to display   </p>  
+
+<% end %>  
+
+</div> 
+
+
+<% if user_signed_in? %>  
+<div> 
+
+<div> 
+
+<h1> Private Forms </h1>    
+
+<% if @private_forms.present? %> 
+
+<% @private_forms.each  do |form| %> 
+    
+    <div class="form-unit"> 
+    <h1> <%= form.name %> </h1> <br/> 
+    <h3> <%= form.description %> </h3> <br/> 
+    <%=  link_to 'Fill the form' ,  new_response_form_path(form) %> 
+    </div> 
+
+<% end %> 
+
+<% else  %>  
+ 
+<p> No private forms to display </p> 
+
+<% end %>  
+
+</div> 
+
+<div> 
+
+<h1> My Forms </h1>    
+
+<% if @my_forms.present? %> 
+
+<% @my_forms.each  do |form| %> 
+    
+    <div class="form-unit"> 
+    <h1> <%= form.name %> </h1> <br/> 
+    <h3> <%= form.description %> </h3> <br/> 
+    <%=  link_to 'Fill the form' ,  new_response_form_path(form) %> <br/> 
+    <%= link_to 'Delete the form' ,   delete_form_path(form) ,  method: :delete ,  data: {confirm: 'Are you sure want to delete this form?' } %> <br/> 
+    <%= link_to 'Edit the form ' , edit_form_path(form) %> <br/>  
+    <%= link_to 'Check out the responses' , response_path(form)     %> 
+    </div>  
+
+<% end %> 
+
+<% else  %>  
+ 
+<p> You have not yet created any form. </p> 
+
+<% end %>  
+
+</div>  
+
+<div> 
+
+<%= link_to 'Create Form' ,  new_form_path  %>    
+
+</div> 
+
+</div> 
+
+<% else %> 
+
+<p>Please sign in to create forms or view private forms </p>  
+
+<% end %>  
+
+<div class="session_manager">
+ 
+<% if user_signed_in? %> 
+<%= link_to 'Log out' ,  logout_path  %> 
+<% else %> 
+<%= link_to 'Log in'  ,  login_path %> 
+<%= link_to 'Register' ,  register_path %>  
+<% end %> 
+
+</div>  
+
+</div> 

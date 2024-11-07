@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_10_30_183103) do
+ActiveRecord::Schema[7.2].define(version: 2024_11_07_105913) do
   create_table "add_form_id_to_sections", force: :cascade do |t|
     t.integer "form_id", null: false
     t.datetime "created_at", null: false
@@ -55,6 +55,9 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_30_183103) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id", null: false
+    t.boolean "public", default: false
+    t.index ["user_id"], name: "index_forms_on_user_id"
   end
 
   create_table "responses", force: :cascade do |t|
@@ -64,7 +67,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_30_183103) do
     t.integer "section_id"
     t.index ["form_id"], name: "index_responses_on_form_id"
     t.index ["section_id"], name: "index_responses_on_section_id"
-  end 
+  end
 
   create_table "sections", force: :cascade do |t|
     t.string "name"
@@ -74,12 +77,26 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_30_183103) do
     t.index ["form_id"], name: "index_sections_on_form_id"
   end
 
+  create_table "users", force: :cascade do |t|
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.boolean "superuser", default: false, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  end
+
   add_foreign_key "add_form_id_to_sections", "forms"
   add_foreign_key "answers", "form_fields"
   add_foreign_key "answers", "responses"
   add_foreign_key "form_field_options", "form_fields"
   add_foreign_key "form_fields", "forms"
   add_foreign_key "form_fields", "sections"
+  add_foreign_key "forms", "users"
   add_foreign_key "responses", "forms"
   add_foreign_key "responses", "sections"
   add_foreign_key "sections", "forms"

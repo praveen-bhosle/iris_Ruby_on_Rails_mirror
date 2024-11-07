@@ -1,16 +1,14 @@
-Rails.application.routes.draw do 
-
-    resources :forms , only: [:index , :show] do 
+Rails.application.routes.draw do  
+  root "home_page#index"  
+  devise_for :users  
+  get 'login'    , to: 'home_page#login'  
+  get 'register' , to: 'home_page#register' 
+  get 'logout'   , to: 'home_page#logout' 
+    resources :forms , only: [:index , :show , :new , :create  , :destroy  ,  :edit  ] do 
         member do  
             get 'new_response'  
             get 'responses' 
         end 
     end 
-    
-    resources :responses  , only: [:index , :create]     
-
-end 
- 
-
-
-   
+    resources :responses  , only: [:index , :create]       
+end  
