@@ -15,10 +15,10 @@ body {
 
 .container {  
     padding: 1px; 
-    border: 1px solid white ; 
+    
     height: 100vh;  
     position: relative; 
-    top: -50px ;
+    top: -40px ;
 }  
  
 .container   h1 { 
@@ -83,7 +83,11 @@ body {
 
 .session_manager{ 
     position: absolute; 
-    right: 0px ; top : -65px; 
+    right: 0px ; top : -50px; 
+} 
+.session_manager a { 
+    color : white ;
+    margin: 0px 5px  ;
 }
 
 .shared_links{ 
