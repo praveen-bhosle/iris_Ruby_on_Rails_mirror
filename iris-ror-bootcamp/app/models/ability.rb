@@ -16,4 +16,4 @@ class Ability
      # A superuser is allowed to do everything
      can :manage, :all
   end
-end
+end 

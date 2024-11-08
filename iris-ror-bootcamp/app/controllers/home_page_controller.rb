@@ -1,6 +1,9 @@
 class HomePageController < ApplicationController 
-  
-  def index 
+   
+
+
+  def index  
+
     if user_signed_in? 
     @forms = Form.all  
     @public_forms  = @forms.where(public: true)
@@ -10,6 +13,7 @@ class HomePageController < ApplicationController
       @forms = Form.all
       @public_forms  = @forms.where(public: true)  
     end 
+ 
   end   
 
   def login 

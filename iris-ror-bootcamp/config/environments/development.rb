@@ -81,7 +81,7 @@ Rails.application.configure do
 
   config.assets.debug = false ; 
 
-  config.assets.compile = false; 
+  #config.assets.compile = false; 
 
   config.assets.digest = false ; 
 end

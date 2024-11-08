@@ -1,12 +1,14 @@
 <div class="container"> 
-<div>     
+<div>      
 <h1> Public Forms </h1>     
 
 <% if @public_forms.present? %> 
 
 <%  @public_forms.each do |form| %>   
-    <div class="form-unit">  <h1> <%= form.name %> </h1> <br/> 
-    <h3> <%= form.description %> </h3> <br/> 
+    <div class="form-unit"> 
+     <h2 ><%= form.name %> </h2> 
+    <h3> <%= form.description %> </h3>  
+    <h3> Status: <%= form.public %> </h3>  
            <%= link_to 'Fill the form'  ,  new_response_form_path(form) %>  
     </div>  
 
@@ -33,9 +35,11 @@
 <% @private_forms.each  do |form| %> 
     
     <div class="form-unit"> 
-    <h1> <%= form.name %> </h1> <br/> 
-    <h3> <%= form.description %> </h3> <br/> 
-    <%=  link_to 'Fill the form' ,  new_response_form_path(form) %> 
+    <h2 > <%= form.name %> </h2> 
+    <h3 > <%= form.description %> </h3> 
+    <h3> Status: <%= form.public %> </h3> 
+    <%=  link_to 'Fill the form' ,  new_response_form_path(form) %>  
+
     </div> 
 
 <% end %> 
@@ -57,10 +61,11 @@
 <% @my_forms.each  do |form| %> 
     
     <div class="form-unit"> 
-    <h2> <%= form.name %>   </h2> <br/> 
-    <h3> <%= form.description %> </h3> <br/> 
+    <h2> <%= form.name %>   </h2> 
+    <h3> <%= form.description %> </h3> 
+    <h3> Status: <%= form.public %> </h3> 
     <%=  link_to 'Fill the form' ,  new_response_form_path(form) %> <br/> 
-    <%= link_to 'Delete the form' ,   form_path(form) ,  method: :delete ,  data: {confirm: 'Are you sure want to delete this form?' } %> <br/> 
+    <%=  link_to 'Delete the form' ,  deleteform_form_path(form) %> <br/> 
     <%= link_to 'Edit the form ' , edit_form_path(form) %> <br/>  
     <%= link_to 'Check out the responses' , responses_form_path(form)      %> 
     </div>  
@@ -97,7 +102,7 @@
 <% else %> 
 <%= link_to 'Log in'  ,  login_path %> 
 <%= link_to 'Register' ,  register_path %>  
-<% end %> 
+<% end %>   
 
 </div>  
 

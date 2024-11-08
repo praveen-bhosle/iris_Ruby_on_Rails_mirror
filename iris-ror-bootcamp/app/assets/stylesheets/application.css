@@ -7,7 +7,6 @@ body {
     
     color:wheat ;  
     background: #0A1828  ; 
-    
     padding: 1px ;     
 } 
 
@@ -15,14 +14,15 @@ body {
 
 .container {  
     padding: 1px; 
-    
+   
     height: 100vh;  
     position: relative; 
     top: -40px ;
 }  
  
 .container   h1 { 
-    text-align:  center; 
+    text-align:  center;  
+    
 
 }
 
@@ -53,7 +53,22 @@ body {
  
 
 .form-unit{ 
-    margin: 2px 0px ;  
+    margin: 30px 10px ;   
+    background-color: azure;
+    color: black ; 
+    border: 1px solid red ; 
+    padding: 5px;
+
+} 
+
+.form-unit h2 { 
+    margin: 0px ; 
+
+} 
+
+.form-unit h3 { 
+    margin:  0px ; 
+   
 }
 
 .form_container{  

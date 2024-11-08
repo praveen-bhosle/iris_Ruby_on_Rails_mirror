@@ -46,7 +46,7 @@ class FormsController < ApplicationController
     end  
 
 
-    def destroy 
+    def deleteform 
         if user_signed_in? && @form.user_id == current_user.id
         @form.destroy 
         redirect_to root_path ,  notice: 'Form was successfully deleted.' 
