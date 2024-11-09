@@ -30,3 +30,8 @@ In the third week, we will introduce you to controllers in RoR and make you work
 In the fourth week, we will introduce you to the concepts of authentication and authorization and implement them in RoR with the help of `devise` and `cancancan` gems.
 
 **Deadline** 7 / 11 / 2024, 11:59pm
+
+## [Week 5 - Associations and Validations](/week_5)
+In the fifth week, we will introduce you to very important concpets of web development, i.e associations and validations in RoR.
+
+**Deadline** 15 / 11 / 2024, 11:59pm
